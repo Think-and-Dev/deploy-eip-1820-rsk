@@ -10,16 +10,16 @@ If you're using ethers.js v4 then try the 0.2 version.
 
 # Setup
 
-Install `deploy-eip-1820` via yarn:
+Install `deploy-eip-1820-rsk` via yarn:
 
 ```sh
-$ yarn add deploy-eip-1820
+$ yarn add deploy-eip-1820-rsk
 ```
 
 or npm:
 
 ```sh
-$ npm i deploy-eip-1820
+$ npm i deploy-eip-1820-rsk
 ```
 
 # Usage
@@ -27,7 +27,7 @@ $ npm i deploy-eip-1820
 To ensure that the EIP 1820 Registry contract exists on the network you are using, use the `setup1820` function:
 
 ```javascript
-const { deploy1820 } = require('deploy-eip-1820')
+const { deploy1820 } = require('deploy-eip-1820-rsk')
 
 async function deploy() {
     const wallet = ethers.Wallet.fromMnemonic("...your mnemonic...")
