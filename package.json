@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "author": "Pedro Prete <pedro@thinkanddev.com>",
   "license": "MIT",
-  "url": "https://github.com/pooltogether/deploy-eip-1820-rsk",
+  "url": "https://github.com/Think-and-Dev/deploy-eip-1820-rsk",
   "peerDependencies": {
     "ethers": "^5.0.0"
   },
